@@ -88,7 +88,6 @@ public class Main {
         }
         paymentMethod.pay(pizza.getBasePrice());
 
-
         // Generate Invoice
         String orderId = UUID.randomUUID().toString();
         String dateTime = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date());
