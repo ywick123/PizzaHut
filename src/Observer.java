@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
 
-public interface Observer {
+interface Observer {
+    void update(String state);
 }

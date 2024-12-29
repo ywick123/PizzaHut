@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
-
-public interface PaymentStrategy {
+interface PaymentStrategy {
+    void pay(double amount);
 }
